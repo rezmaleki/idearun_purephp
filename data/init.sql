@@ -1,0 +1,11 @@
+CREATE DATABASE test;
+
+use test;
+
+CREATE TABLE tasks (
+	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	title VARCHAR(30) NOT NULL,
+	groups VARCHAR(50) NOT NULL,
+	status BOOLEAN,
+	date TIMESTAMP
+);
